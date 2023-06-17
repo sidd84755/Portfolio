@@ -16,7 +16,7 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    lps,
     tesla,
     shopify,
     carrent,
@@ -118,7 +118,7 @@ import {
     {
       title: "React.js Developer",
       company_name: "Starbucks",
-      icon: starbucks,
+      icon: lps,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
