@@ -15,7 +15,7 @@ import {
     git,
     figma,
     docker,
-    meta,
+    vn,
     lps,
     cu,
     shopify,
@@ -158,7 +158,7 @@ import {
     {
       title: "Web Developer",
       company_name: "Virtual Ninjas",
-      icon: meta,
+      icon: vn,
       iconBg: "#E6DEDD",
       date: "April 2022 - Present",
       points: [
@@ -177,7 +177,7 @@ import {
       name: "Rudram Shah",
       designation: "UI/UX Designer",
       company: "TCS",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: "https://pps.whatsapp.net/v/t61.24694-24/347732986_621025469993682_4545181184292469130_n.jpg?ccb=11-4&oh=01_AdTRm8dr8cGYiVepVSUFaIGeV653WoqadkGCaDeJGT6jMg&oe=6496C757",
     },
     {
       testimonial:
@@ -185,7 +185,7 @@ import {
       name: "Manish Harit",
       designation: "Software Engineer",
       company: "All State",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      image: "https://pps.whatsapp.net/v/t61.24694-24/345490081_797817914897495_7341578084169701383_n.jpg?ccb=11-4&oh=01_AdT3OxZSVmJ_2WxKsYijF5GD0AKnXAAHBGakz-hMvE4gkQ&oe=649965B6",
     },
     {
       testimonial:
@@ -193,7 +193,7 @@ import {
       name: "Naved Farooqi",
       designation: "Manager",
       company: "Virtual Ninjas",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: vn,
     },
   ];
   

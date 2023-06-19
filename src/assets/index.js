@@ -22,7 +22,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
+import vn from "./company/vn.png";
 import shopify from "./company/shopify.png";
 import lps from "./company/lps.png";
 import cu from "./company/cu.png";
@@ -55,7 +55,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
+  vn,
   shopify,
   lps,
   cu,
