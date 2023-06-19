@@ -15,7 +15,7 @@ const App = () => {
         <div className="bg-stone-50">
           <Experience/>
         </div>
-        <Tech/>
+        {/* <Tech/> */}
         <Works/>
         <div className="bg-stone-50">
           <Feedbacks/>

@@ -19,9 +19,10 @@ import {
     lps,
     cu,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    taskgo,
+    apmineral,
+    ytclone,
+    usbinteriors,
     threejs,
   } from "../assets";
   
@@ -80,38 +81,38 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
+    // {
+    //   name: "Tailwind CSS",
+    //   icon: tailwind,
+    // },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
@@ -172,93 +173,114 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "Siddharath is an exceptional web developer who turned our vision into a stunning reality.",
+      name: "Rudram Shah",
+      designation: "UI/UX Designer",
+      company: "TCS",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "Impressed by Siddharath's technical prowess and ability to deliver a top-notch website on time.",
+      name: "Manish Harit",
+      designation: "Software Engineer",
+      company: "All State",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "Impressed by Sid's ability to seamlessly integrate advanced functionalities into our website.",
+      name: "Naved Farooqi",
+      designation: "Manager",
+      company: "Virtual Ninjas",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Task Go",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Task Go is a comprehensive task management system built using the MERN stack. It offers a user-friendly interface and robust features to help individuals and teams effectively organize and track their tasks.With Task Go, users can create, assign, and prioritize tasks effortlessly.",
       tags: [
         {
-          name: "react",
+          name: "MERN",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "MUI",
           color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
         },
         {
           name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: taskgo,
+      live_link: "https://taskgo.callmesid.in/",
+      source_code_link: "https://github.com/sidd84755/TaskManager",
     },
     {
-      name: "Trip Guide",
+      name: "Ap Minerals",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Ap Minerals is a professional website developed using React, catering to the needs of a leading coal mining and trading company. This platform showcases the company's expertise in the coal industry and provides essential information and services to its clients and stakeholders.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "MUI",
+          color: "green-text-gradient",
+        },
+      ],
+      image: apmineral,
+      live_link: "https://apmineral.in/",
+      source_code_link: "https://github.com/sidd84755/ap-minerals",
+    },
+    {
+      name: "Youtube Clone",
+      description:
+        "The YouTube Clone is an impressive web application built using React, designed to emulate the popular video-sharing platform, YouTube. This dynamic and interactive platform offers users a similar experience to YouTube, allowing them to watch, upload, and share videos with ease.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MUI",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Rapid Api",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: ytclone,
+      live_link: "https://yt.callmesid.in/",
+      source_code_link: "https://github.com/sidd84755/youtube_clone",
+    },
+    {
+      name: "USB Interiors",
+      description:
+        "Usb Interiors is a visually stunning website for interior designing, meticulously crafted using HTML, CSS, and JavaScript. This website serves as a showcase for the expertise and creativity of the Usb Interiors team, providing visitors with an immersive experience in the world of interior design.",
+      tags: [
+        {
+          name: "Html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: usbinteriors,
+      live_link: "https://usbinteriors.com/",
+      source_code_link: "https://github.com/sidd84755",
     },
   ];
   

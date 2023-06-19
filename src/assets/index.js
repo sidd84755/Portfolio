@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import projectlink from './projectlink.png';
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -26,9 +27,10 @@ import shopify from "./company/shopify.png";
 import lps from "./company/lps.png";
 import cu from "./company/cu.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import taskgo from "./taskgo.png";
+import apmineral from "./apmineral.png";
+import ytclone from "./ytclone.png"
+import usbinteriors from "./usbinteriors.png";
 
 export {
   logo,
@@ -37,6 +39,7 @@ export {
   mobile,
   web,
   github,
+  projectlink,
   menu,
   close,
   css,
@@ -56,7 +59,8 @@ export {
   shopify,
   lps,
   cu,
-  carrent,
-  jobit,
-  tripguide,
+  taskgo,
+  apmineral,
+  ytclone,
+  usbinteriors,
 };
