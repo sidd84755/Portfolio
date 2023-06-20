@@ -33,7 +33,11 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "My Journey",
+    },
+    {
+      id: "project",
+      title: "Projects",
     },
     {
       id: "contact",
