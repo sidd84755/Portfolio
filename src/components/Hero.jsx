@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
+import sid from "../assets/sid.png"
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-[#050816]`}>
-            Hi, I'm <span className='text-[#915eff]'>Siddharth</span>
+            Hi, I'm <span className='text-[#915eff]'>Siddharath</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-primary`}>
             I develop Full Stack <br className='sm:block hidden'/>
@@ -25,7 +26,9 @@ const Hero = () => {
           <div className='w-5 h-5 rounded-full bg-[#915eff]'/>
         </div>
       </div>
-      {/* <ComputersCanvas/> */}
+      <div className='sid1'>
+        <ComputersCanvas/>
+      </div>
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
