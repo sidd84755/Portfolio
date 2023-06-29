@@ -16,12 +16,15 @@ import {
     figma,
     docker,
     vn,
+    rudram,
+    manish,
     lps,
     cu,
     shopify,
     taskgo,
     apmineral,
     ytclone,
+    careerguru,
     usbinteriors,
     threejs,
   } from "../assets";
@@ -164,7 +167,7 @@ import {
       company_name: "Virtual Ninjas",
       icon: vn,
       iconBg: "#E6DEDD",
-      date: "April 2022 - Present",
+      date: "April 2022 - November 2022",
       points: [
         "Developing and maintaining web applications using GoHighlevel and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -181,7 +184,7 @@ import {
       name: "Rudram Shah",
       designation: "UI/UX Designer",
       company: "TCS",
-      image: "https://pps.whatsapp.net/v/t61.24694-24/347732986_621025469993682_4545181184292469130_n.jpg?ccb=11-4&oh=01_AdTRm8dr8cGYiVepVSUFaIGeV653WoqadkGCaDeJGT6jMg&oe=6496C757",
+      image: rudram,
     },
     {
       testimonial:
@@ -189,7 +192,7 @@ import {
       name: "Manish Harit",
       designation: "Software Engineer",
       company: "All State",
-      image: "https://pps.whatsapp.net/v/t61.24694-24/345490081_797817914897495_7341578084169701383_n.jpg?ccb=11-4&oh=01_AdT3OxZSVmJ_2WxKsYijF5GD0AKnXAAHBGakz-hMvE4gkQ&oe=649965B6",
+      image: manish,
     },
     {
       testimonial:
@@ -263,6 +266,28 @@ import {
       image: ytclone,
       live_link: "https://yt.callmesid.in/",
       source_code_link: "https://github.com/sidd84755/youtube_clone",
+    },
+    {
+      name: "Career Guru",
+      description:
+        "Career Guru is a cutting-edge mobile application built using React Native, designed to revolutionize the way individuals search for their dream jobs. With its user-friendly interface and powerful features, Career Guru serves as a comprehensive job hunting companion.",
+      tags: [
+        {
+          name: "ReactNative",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Expo",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Rapid Api",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: careerguru,
+      live_link: "https://drive.google.com/file/d/18CQS-GoWjB8zmWD-8ad9x-4wkVFivhh1/view?usp=sharing",
+      source_code_link: "https://github.com/sidd84755/CareerGuru",
     },
     {
       name: "USB Interiors",

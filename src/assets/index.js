@@ -26,10 +26,13 @@ import vn from "./company/vn.png";
 import shopify from "./company/shopify.png";
 import lps from "./company/lps.png";
 import cu from "./company/cu.png";
+import rudram from "./company/rudram.jpg"
+import manish from "./company/manish.jpg"
 
 import taskgo from "./taskgo.png";
 import apmineral from "./apmineral.png";
 import ytclone from "./ytclone.png"
+import careerguru from "./careerguru.jpeg"
 import usbinteriors from "./usbinteriors.png";
 
 export {
@@ -56,11 +59,14 @@ export {
   typescript,
   threejs,
   vn,
+  rudram,
+  manish,
   shopify,
   lps,
   cu,
   taskgo,
   apmineral,
   ytclone,
+  careerguru,
   usbinteriors,
 };
