@@ -16,6 +16,8 @@ import {
     figma,
     docker,
     vn,
+    capg,
+    bdo,
     rudram,
     manish,
     lps,
@@ -26,6 +28,10 @@ import {
     ytclone,
     careerguru,
     usbinteriors,
+    arki,
+    getmetherapy,
+    virtualninjas,
+    uditahomes,
     threejs,
   } from "../assets";
   
@@ -127,7 +133,7 @@ import {
       title: "Matriculation & Intermediate",
       company_name: "Lucknow Public School",
       icon: lps,
-      iconBg: "#383E56",
+      iconBg: "#E6DEDD",
       date: "April 2005 - June 2018",
       points: [
         "Completed Matriculation from ICSE board and Intermediate from CBSE.",
@@ -137,7 +143,7 @@ import {
       ],
     },
     {
-      title: "Graduation (BCA)",
+      title: "Bachelors In Computer Applications",
       company_name: "Chandigarh University",
       icon: cu,
       iconBg: "#E6DEDD",
@@ -150,10 +156,10 @@ import {
       ],
     },
     {
-      title: "Post-Graduation (MCA)",
+      title: "Masters In Computer Applications",
       company_name: "Chandigarh University",
       icon: cu,
-      iconBg: "#383E56",
+      iconBg: "#E6DEDD",
       date: "July 2021 - June 2023",
       points: [
         "Learnt full stack development with MERN stack.",
@@ -163,16 +169,42 @@ import {
       ],
     },
     {
-      title: "Web Developer",
+      title: "Full Stack Developer (Intern)",
       company_name: "Virtual Ninjas",
       icon: vn,
       iconBg: "#E6DEDD",
       date: "April 2022 - November 2022",
       points: [
-        "Developing and maintaining web applications using GoHighlevel and other related technologies.",
+        "Developed and maintained web applications using MERN Stack and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Associate Software Engineer",
+      company_name: "BDO India",
+      icon: bdo,
+      iconBg: "#E6DEDD",
+      date: "December 2022 - December 2023",
+      points: [
+        "Played a key role in developing and enhancing theCollege ERP system using PHP CodeIgniter, ensuring smooth operation and functionality across various modules such as admissions,student records, faculty management, and financial systems.",
+        "Conducted regular codebase maintenance, optimized performance, and ensured high security and reliability.",
+        "Created comprehensive technical documentation for the ERP system, including user manuals, system architecture diagrams, and API documentation to facilitate future development and maintenance.",
+        "Provided training and support to end-users, helping them understand and effectively use the ERP system.",
+      ],
+    },
+    {
+      title: "Associate Software Engineer",
+      company_name: "Capgemini",
+      icon: capg,
+      iconBg: "#E6DEDD",
+      date: "April 2023 - Present",
+      points: [
+        "Led and contributed to projects involving the design, implementation, and maintenance of Cisco Unified Communications Manager (CUCM) systems, ensuring robust and efficient communication solutions for clients",
+        "Managed the configuration and deployment of CUCM, including provisioning users, setting up devices, and ensuring compliance with organizational policies.",
+        "Created comprehensive technical documentation for the ERP system, including user manuals, system architecture diagrams, and API documentation to facilitate future development and maintenance.",
+        "Worked closely with clients, project managers, and cross-functional teams to understand requirements, deliver solutions, and ensure client satisfaction.",
       ],
     },
   ];
@@ -228,6 +260,72 @@ import {
       source_code_link: "https://github.com/sidd84755/TaskManager",
     },
     {
+      name: "Arki Government College",
+      description:
+        "The ERP system for Arki Government College, streamlines administrative and academic processes. It integrates functions like student enrollment, course management, and financial administration, enhancing efficiency, accuracy, and data accessibility for the institution.",
+      tags: [
+        {
+          name: "PHP (Codeignitor)",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML, CSS",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: arki,
+      live_link: "",
+      source_code_link: "",
+    },
+    {
+      name: "Udita Homes",
+      description:
+        "Udita Homes is an old age home providing a safe, comfortable, and nurturing environment for elderly residents. It offers personalized care, recreational activities, and medical support. Udita Homes fosters a sense of community to ensure their well-being and happiness.",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML, CSS",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: uditahomes,
+      live_link: "https://uditahomes.in/",
+      source_code_link: "",
+    },
+    {
+      name: "Get Me Therapy",
+      description:
+        "Get Me Therapy offers accessible mental health services, including personalized counseling and therapy sessions. The project aims to create a supportive environment for individuals seeking to improve their mental wellness and overall well-being with a focus on comprehensive care",
+      tags: [
+        {
+          name: "PHP",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML, CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Jquery, Razorpay",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: getmetherapy,
+      live_link: "https://getmetherapy.com/",
+      source_code_link: "",
+    },
+    {
       name: "Ap Minerals",
       description:
         "Ap Minerals is a professional website developed using React, catering to the needs of a leading coal mining and trading company. This platform showcases the company's expertise in the coal industry and provides essential information and services to its clients and stakeholders.",
@@ -242,7 +340,7 @@ import {
         },
       ],
       image: apmineral,
-      live_link: "https://apmineral.in/",
+      live_link: "https://apminerals.callmesid.in/",
       source_code_link: "https://github.com/sidd84755/ap-minerals",
     },
     {
@@ -310,6 +408,28 @@ import {
       image: usbinteriors,
       live_link: "https://usbinteriors.com/",
       source_code_link: "https://github.com/sidd84755",
+    },
+    {
+      name: "Virtual Ninjas",
+      description:
+        "Virtual Ninjas is a digital marketing agency specializing in innovative strategies and solutions to enhance online presence. It focuses on delivering impactful campaigns, brand development, and data-driven marketing techniques to help clients achieve their business goals in the digital landscape.",
+      tags: [
+        {
+          name: "Html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS, GoHighlevel",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: virtualninjas,
+      live_link: "https://virtualninjas.agency/",
+      source_code_link: "",
     },
   ];
   

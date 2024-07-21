@@ -26,14 +26,20 @@ import vn from "./company/vn.png";
 import shopify from "./company/shopify.png";
 import lps from "./company/lps.png";
 import cu from "./company/cu.png";
-import rudram from "./company/rudram.jpg"
-import manish from "./company/manish.jpg"
+import capg from "./company/caplogo.png";
+import bdo from "./company/bdologo.png";
+import rudram from "./company/rudram.jpg";
+import manish from "./company/manish.jpg";
 
 import taskgo from "./taskgo.png";
 import apmineral from "./apmineral.png";
 import ytclone from "./ytclone.png"
 import careerguru from "./careerguru.jpeg"
 import usbinteriors from "./usbinteriors.png";
+import arki from "./arkiscreen.png";
+import uditahomes from "./uditahomes.png";
+import getmetherapy from "./getmetherapy.png";
+import virtualninjas from "./virtualninjas.png";
 
 export {
   logo,
@@ -64,9 +70,15 @@ export {
   shopify,
   lps,
   cu,
+  capg,
+  bdo,
   taskgo,
   apmineral,
   ytclone,
+  arki,
+  getmetherapy,
+  uditahomes,
+  virtualninjas,
   careerguru,
   usbinteriors,
 };
