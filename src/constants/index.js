@@ -199,7 +199,7 @@ import {
       company_name: "Capgemini",
       icon: capg,
       iconBg: "#E6DEDD",
-      date: "April 2023 - Present",
+      date: "April 2024 - Present",
       points: [
         "Led and contributed to projects involving the design, implementation, and maintenance of Cisco Unified Communications Manager (CUCM) systems, ensuring robust and efficient communication solutions for clients",
         "Managed the configuration and deployment of CUCM, including provisioning users, setting up devices, and ensuring compliance with organizational policies.",
